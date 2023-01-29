@@ -1,0 +1,17 @@
+lc s 15
+lc s 12
+ld n 11
+lf s 9
+ld s 6
+lc s 5
+ld n 3
+ld s 1
+https://onlinesequencer.net/2494019
+
+
+left button noise:
+15
+9
+5
+3
+1

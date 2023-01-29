@@ -1,0 +1,163 @@
+# Project: 109062318
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = Allegro5Exception.o AudioHelper.o Bullet.o Collider.o DirtyEffect.o Enemy.o ExplosionEffect.o GameEngine.o Group.o IceCreamBullet.o IControl.o Image.o ImageButton.o IObject.o IScene.o Killer.o Label.o LOG.o LoseScene.o main.o NormalEnemy.o Plane.o PlateletTurret.o PlayScene.o PockyBullet.o Point.o Resources.o Slider.o SofaEnemy.o Sprite.o StageSelectScene.o Start_Scene.o StrongEnemy.o Turret.o TurretButton.o WBCellTurret.o WinScene.o SettingScene.o ChipBullet.o RBCellTurret.o Enemy4.o TurretShootEffect.o EnemyBullet.o FireBallBullet.o Turret5.o Turret4.o
+LINKOBJ  = Allegro5Exception.o AudioHelper.o Bullet.o Collider.o DirtyEffect.o Enemy.o ExplosionEffect.o GameEngine.o Group.o IceCreamBullet.o IControl.o Image.o ImageButton.o IObject.o IScene.o Killer.o Label.o LOG.o LoseScene.o main.o NormalEnemy.o Plane.o PlateletTurret.o PlayScene.o PockyBullet.o Point.o Resources.o Slider.o SofaEnemy.o Sprite.o StageSelectScene.o Start_Scene.o StrongEnemy.o Turret.o TurretButton.o WBCellTurret.o WinScene.o SettingScene.o ChipBullet.o RBCellTurret.o Enemy4.o TurretShootEffect.o EnemyBullet.o FireBallBullet.o Turret5.o Turret4.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -L"C:/allegro-mingw-gcc6.2.0-x64-static-5.2.2/allegro/lib/" C:/allegro-mingw-gcc6.2.0-x64-static-5.2.2/allegro/lib/liballegro_monolith.dll.a -Wl,--allow-multiple-definition
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/allegro-mingw-gcc6.2.0-x64-static-5.2.2/allegro/include/"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/allegro-mingw-gcc6.2.0-x64-static-5.2.2/allegro/include/"
+BIN      = 109062318.exe
+CXXFLAGS = $(CXXINCS) -Wall -Wextra -std=c++14
+CFLAGS   = $(INCS) -Wall -Wextra -std=c++14
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Allegro5Exception.o: Allegro5Exception.cpp
+	$(CPP) -c Allegro5Exception.cpp -o Allegro5Exception.o $(CXXFLAGS)
+
+AudioHelper.o: AudioHelper.cpp
+	$(CPP) -c AudioHelper.cpp -o AudioHelper.o $(CXXFLAGS)
+
+Bullet.o: Bullet.cpp
+	$(CPP) -c Bullet.cpp -o Bullet.o $(CXXFLAGS)
+
+Collider.o: Collider.cpp
+	$(CPP) -c Collider.cpp -o Collider.o $(CXXFLAGS)
+
+DirtyEffect.o: DirtyEffect.cpp
+	$(CPP) -c DirtyEffect.cpp -o DirtyEffect.o $(CXXFLAGS)
+
+Enemy.o: Enemy.cpp
+	$(CPP) -c Enemy.cpp -o Enemy.o $(CXXFLAGS)
+
+ExplosionEffect.o: ExplosionEffect.cpp
+	$(CPP) -c ExplosionEffect.cpp -o ExplosionEffect.o $(CXXFLAGS)
+
+GameEngine.o: GameEngine.cpp
+	$(CPP) -c GameEngine.cpp -o GameEngine.o $(CXXFLAGS)
+
+Group.o: Group.cpp
+	$(CPP) -c Group.cpp -o Group.o $(CXXFLAGS)
+
+IceCreamBullet.o: IceCreamBullet.cpp
+	$(CPP) -c IceCreamBullet.cpp -o IceCreamBullet.o $(CXXFLAGS)
+
+IControl.o: IControl.cpp
+	$(CPP) -c IControl.cpp -o IControl.o $(CXXFLAGS)
+
+Image.o: Image.cpp
+	$(CPP) -c Image.cpp -o Image.o $(CXXFLAGS)
+
+ImageButton.o: ImageButton.cpp
+	$(CPP) -c ImageButton.cpp -o ImageButton.o $(CXXFLAGS)
+
+IObject.o: IObject.cpp
+	$(CPP) -c IObject.cpp -o IObject.o $(CXXFLAGS)
+
+IScene.o: IScene.cpp
+	$(CPP) -c IScene.cpp -o IScene.o $(CXXFLAGS)
+
+Killer.o: Killer.cpp
+	$(CPP) -c Killer.cpp -o Killer.o $(CXXFLAGS)
+
+Label.o: Label.cpp
+	$(CPP) -c Label.cpp -o Label.o $(CXXFLAGS)
+
+LOG.o: LOG.cpp
+	$(CPP) -c LOG.cpp -o LOG.o $(CXXFLAGS)
+
+LoseScene.o: LoseScene.cpp
+	$(CPP) -c LoseScene.cpp -o LoseScene.o $(CXXFLAGS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+NormalEnemy.o: NormalEnemy.cpp
+	$(CPP) -c NormalEnemy.cpp -o NormalEnemy.o $(CXXFLAGS)
+
+Plane.o: Plane.cpp
+	$(CPP) -c Plane.cpp -o Plane.o $(CXXFLAGS)
+
+PlateletTurret.o: PlateletTurret.cpp
+	$(CPP) -c PlateletTurret.cpp -o PlateletTurret.o $(CXXFLAGS)
+
+PlayScene.o: PlayScene.cpp
+	$(CPP) -c PlayScene.cpp -o PlayScene.o $(CXXFLAGS)
+
+PockyBullet.o: PockyBullet.cpp
+	$(CPP) -c PockyBullet.cpp -o PockyBullet.o $(CXXFLAGS)
+
+Point.o: Point.cpp
+	$(CPP) -c Point.cpp -o Point.o $(CXXFLAGS)
+
+Resources.o: Resources.cpp
+	$(CPP) -c Resources.cpp -o Resources.o $(CXXFLAGS)
+
+Slider.o: Slider.cpp
+	$(CPP) -c Slider.cpp -o Slider.o $(CXXFLAGS)
+
+SofaEnemy.o: SofaEnemy.cpp
+	$(CPP) -c SofaEnemy.cpp -o SofaEnemy.o $(CXXFLAGS)
+
+Sprite.o: Sprite.cpp
+	$(CPP) -c Sprite.cpp -o Sprite.o $(CXXFLAGS)
+
+StageSelectScene.o: StageSelectScene.cpp
+	$(CPP) -c StageSelectScene.cpp -o StageSelectScene.o $(CXXFLAGS)
+
+Start_Scene.o: Start_Scene.cpp
+	$(CPP) -c Start_Scene.cpp -o Start_Scene.o $(CXXFLAGS)
+
+StrongEnemy.o: StrongEnemy.cpp
+	$(CPP) -c StrongEnemy.cpp -o StrongEnemy.o $(CXXFLAGS)
+
+Turret.o: Turret.cpp
+	$(CPP) -c Turret.cpp -o Turret.o $(CXXFLAGS)
+
+TurretButton.o: TurretButton.cpp
+	$(CPP) -c TurretButton.cpp -o TurretButton.o $(CXXFLAGS)
+
+WBCellTurret.o: WBCellTurret.cpp
+	$(CPP) -c WBCellTurret.cpp -o WBCellTurret.o $(CXXFLAGS)
+
+WinScene.o: WinScene.cpp
+	$(CPP) -c WinScene.cpp -o WinScene.o $(CXXFLAGS)
+
+SettingScene.o: SettingScene.cpp
+	$(CPP) -c SettingScene.cpp -o SettingScene.o $(CXXFLAGS)
+
+ChipBullet.o: ChipBullet.cpp
+	$(CPP) -c ChipBullet.cpp -o ChipBullet.o $(CXXFLAGS)
+
+RBCellTurret.o: RBCellTurret.cpp
+	$(CPP) -c RBCellTurret.cpp -o RBCellTurret.o $(CXXFLAGS)
+
+Enemy4.o: Enemy4.cpp
+	$(CPP) -c Enemy4.cpp -o Enemy4.o $(CXXFLAGS)
+
+TurretShootEffect.o: TurretShootEffect.cpp
+	$(CPP) -c TurretShootEffect.cpp -o TurretShootEffect.o $(CXXFLAGS)
+
+EnemyBullet.o: EnemyBullet.cpp
+	$(CPP) -c EnemyBullet.cpp -o EnemyBullet.o $(CXXFLAGS)
+
+FireBallBullet.o: FireBallBullet.cpp
+	$(CPP) -c FireBallBullet.cpp -o FireBallBullet.o $(CXXFLAGS)
+
+Turret5.o: Turret5.cpp
+	$(CPP) -c Turret5.cpp -o Turret5.o $(CXXFLAGS)
+
+Turret4.o: Turret4.cpp
+	$(CPP) -c Turret4.cpp -o Turret4.o $(CXXFLAGS)

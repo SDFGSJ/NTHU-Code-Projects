@@ -1,0 +1,16 @@
+Script started on 2022-12-31 15:31:21+08:00 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="119" LINES="29"]
+]0;daneil@MS-DanielNB: /mnt/d/Profile/Daniel/OneDrive/桌面/OS Project/Checkpoint 3[01;32mdaneil@MS-DanielNB[00m:[01;34m/mnt/d/Profile/Daniel/OneDrive/桌面/OS Project/Checkpoint 3[00m$ exitmake clean[6Pexitmake clean
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym
+rm: cannot remove '*.ihx': No such file or directory
+rm: cannot remove '*.lnk': No such file or directory
+make: *** [Makefile:25: clean] Error 1
+]0;daneil@MS-DanielNB: /mnt/d/Profile/Daniel/OneDrive/桌面/OS Project/Checkpoint 3[01;32mdaneil@MS-DanielNB[00m:[01;34m/mnt/d/Profile/Daniel/OneDrive/桌面/OS Project/Checkpoint 3[00m$ make clean[6Pexitmake
+sdcc -c  testpreempt.c
+testpreempt.c:38: warning 158: overflow in implicit constant conversion
+sdcc -c  preemptive.c
+preemptive.c:82: warning 85: in function ThreadCreate unreferenced function argument : 'fp'
+sdcc  -o testpreempt.hex testpreempt.rel preemptive.rel
+]0;daneil@MS-DanielNB: /mnt/d/Profile/Daniel/OneDrive/桌面/OS Project/Checkpoint 3[01;32mdaneil@MS-DanielNB[00m:[01;34m/mnt/d/Profile/Daniel/OneDrive/桌面/OS Project/Checkpoint 3[00m$ make clean[6Pexit
+exit
+
+Script done on 2022-12-31 15:31:27+08:00 [COMMAND_EXIT_CODE="0"]

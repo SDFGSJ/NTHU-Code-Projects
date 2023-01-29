@@ -1,0 +1,225 @@
+There are total 8 supported mouse buttons
+Allegro5 initialized
+Game begin
+resized image: main-bg.jpg
+resized image: win.jpg
+resized image: boss_background.jpg
+resized image: start-bg.jpg
+Change scene from 0 to 1
+Game initialized
+Game start event loop
+Key with keycode 67 down
+Change scene from 1 to 2
+stop audio (bgm)
+Key with keycode 67 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 75 down
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 85 down
+Key with keycode 83 up
+Key with keycode 85 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 85 down
+Key with keycode 75 up
+Key with keycode 85 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 75 down
+Key with keycode 85 down
+Tank Shoot
+Tank Shoot
+Tank Shoot
+Enemy Shoot
+Enemy Shoot
+Enemy Shoot
+Key with keycode 83 up
+Key with keycode 85 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Enemy Shoot
+Key with keycode 85 down
+Key with keycode 83 up
+Key with keycode 85 up
+Key with keycode 84 down
+Tank Shoot
+Tank Shoot
+Enemy Shoot
+Enemy Shoot
+Key with keycode 84 up
+Key with keycode 82 down
+Key with keycode 82 up
+Enemy Shoot
+Tank Shoot
+Key with keycode 75 up
+Key with keycode 83 down
+Key with keycode 75 down
+Enemy Shoot
+Enemy Shoot
+Enemy Shoot
+Tank Shoot
+Tank Shoot
+Key with keycode 83 up
+Key with keycode 82 down
+Enemy Shoot
+Enemy Shoot
+Key with keycode 82 up
+Tank Shoot
+Tank Shoot
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Enemy Shoot
+Tank Shoot
+Key with keycode 85 down
+Key with keycode 83 up
+Tank Shoot
+Key with keycode 85 up
+Key with keycode 82 down
+Enemy Shoot
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 82 down
+Tank Shoot
+Key with keycode 82 up
+Enemy Shoot
+Key with keycode 82 down
+Key with keycode 82 up
+Tank Shoot
+Tank Shoot
+Enemy Shoot
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 83 up
+Enemy Shoot
+Key with keycode 82 down
+Tank Shoot
+Enemy Shoot
+Key with keycode 75 up
+Key with keycode 84 down
+Key with keycode 84 up
+Key with keycode 75 down
+Key with keycode 82 up
+Key with keycode 84 down
+Key with keycode 75 up
+Key with keycode 84 up
+Key with keycode 82 down
+Key with keycode 75 down
+Key with keycode 82 up
+Enemy Shoot
+Key with keycode 75 up
+Key with keycode 84 down
+Key with keycode 84 up
+Tank Shoot
+(bullet)minus blood.
+Key with keycode 85 down
+Key with keycode 85 up
+(tank)minus blood.
+Key with keycode 85 down
+Key with keycode 84 down
+Key with keycode 84 up
+Key with keycode 75 down
+Key with keycode 75 up
+Key with keycode 85 up
+Tank Shoot
+Tank Shoot
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 84 down
+Key with keycode 75 down
+Key with keycode 84 up
+Key with keycode 82 down
+Enemy Shoot
+Tank Shoot
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 83 up
+Enemy Shoot
+Tank Shoot
+Key with keycode 82 down
+Key with keycode 82 up
+Enemy Shoot
+Tank Shoot
+Tank Shoot
+Tank Shoot
+Key with keycode 75 up
+Enemy Shoot
+Tank Shoot
+Tank Shoot
+Key with keycode 82 down
+Key with keycode 75 down
+Key with keycode 82 up
+Key with keycode 83 down
+Enemy Shoot
+Enemy Shoot
+Key with keycode 83 up
+Tank Shoot
+Tank Shoot
+Key with keycode 83 down
+Key with keycode 83 up
+Enemy Shoot
+Enemy Shoot
+Change scene from 2 to 7
+stop audio (bgm)
+Boss Shoot
+Tank Shoot
+Tank Shoot
+Boss Shoot
+Boss Shoot
+Key with keycode 75 up
+Boss Shoot
+Boss Shoot
+Boss Shoot
+Key with keycode 83 down
+Boss Shoot
+Enemy Shoot
+Enemy Shoot
+Key with keycode 83 up
+Boss Shoot
+Boss Shoot
+Boss Shoot
+Boss Shoot
+Boss Shoot
+Boss Shoot
+Enemy Shoot
+Boss Shoot
+Key with keycode 84 down
+Boss Shoot
+Key with keycode 83 down
+Key with keycode 84 up
+Boss Shoot
+Boss Shoot
+Boss Shoot
+Key with keycode 84 down
+Boss Shoot
+Boss Shoot
+Boss Shoot
+Boss Shoot
+(bullet)minus blood.
+Enemy Shoot
+Boss Shoot
+Key with keycode 83 up
+Key with keycode 82 down
+Key with keycode 84 up
+Boss Shoot
+Boss Shoot
+(bullet)minus blood.
+Change scene from 7 to 4
+stop audio (bgm)
+Key with keycode 82 up
+Mouse button 1 down at (941, 714)
+Change scene from 4 to 1
+Mouse button 1 up at (941, 714)
+Window close button clicked
+Game end
